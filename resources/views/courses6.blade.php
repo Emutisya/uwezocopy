@@ -30,53 +30,193 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <!--/fonts-->
+<style>
+	.button {
+  background-color:  #6b3f98;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#logo { 
+  float: left;
+  display: inline-block;
+}
+#call { 
+  float: center;
+  display: inline-block;
+color: #2caae2;
+align-items: center;
+}
+#callafter { 
+  float: center;
+  display: inline-block;
+color: #ffff;
+align-items: center;
+}
+
+
+#face { 
+  float: right;
+
+  text-align: center;
+  align:center;
+
+}
+
+
+
+.nav {
+  overflow: hidden;
+  
+  background-color: #2caae2;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  text-align: center;
+height:80px;
+  background-color: #6b3f98;
+
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 15.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.nav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.right-side-content {
+  display: flex;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  height:80px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #2caae2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2caae2;
+  color: white;
+}
+</style>
 </head>
 <body>
+
+
+<div class="nav" style="text-align: center; ">
+ <a href="https://elearning.uwezocollege.ac.ke/cmis/portal/">Click To Access E-learning</a>
+
+ 
+</div>
+
+
+
+<img src="images/logo2.png" id="logo"  />
+
+<div class="topnav">
+
+  <a  href="/">Home</a>
+  <a   href="/about">About</a>
+  <a class="active"  href="/courses">Courses</a>
+ 
+
+  <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
+  <a href="http://uwezowetufoundation.org/">scholarship</a>
+ 
+
+ 
+
+  
+  <a href="/contact">Contact Us</a>
+  <div id= "call">
+  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.co.ke
+  
+
+</div>
+
+  </h4>
+  <!--
+  <div id=face >
+  <a href="https://www.facebook.com/uwezocollege" ><i class="f-1"> </i></a>
+  <a href="https://twitter.com/UwezoCollege_ac"  ><i class="g-1" > </i></a>
+</div>
+-->
+</div>
+
 	<!--banner-->
 	<div class="banner-1">
-		<!--header-->
-        <div class="header">		
-				<nav class="navbar navbar-default">
-					<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"> </span>
-								<span class="icon-bar"> </span>
-								<span class="icon-bar"> </span>
-							</button>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right wow fadeInLeft animated" data-wow-delay=".5s">
-							<li><img src="/images/logo3.png"></li>
-						
-								<li><a href="/" >Home</a></li>
-							
-								<li><a href="/about" >About</a></li>
-								<li><a href="/courses" class="active" >Courses</a></li>
-						
-								
-								<li><a href="https://uwezowetufoundation.org/" >Scholarships</a></li>
-							<!--	<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/" >Schools</a></li> -->
-								<li><a href="/contact" >Contact</a></li>
-							</ul>		
-						</div>	
-				</nav>	
-				<div class="logo">
-					<a class="navbar-brand" href="/">Uwezo College</a>
-				</div>
-				
-				<div class="search-bar wow fadeInRight animated" data-wow-delay=".5s">
-					<form action="#" method="post">
-						<input type="text" name="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-						<input type="submit" value="">
-					</form>
-				</div>
-				<div class="clearfix"> </div>			
-		</div>	
-		<!--//header-->
-	</div>
+</div>
 	<!--//banner-->
 <!--single-page-->
 <div class="single">
@@ -270,15 +410,14 @@ applications.</li>
 			</div>
 			
 <!--footer-->
-<br>
-	<div class="footer">
+<div class="footer">
 		<div class="container">
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Get in touch!</h4>
 				<p>Call 0713-554-972 / 0724-390-322</p>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
-				<h4>Associations</h4>
+				<h4>Schools</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
 					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
@@ -289,6 +428,15 @@ applications.</li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
 				
 				
+				
+				</ul>
+			</div>
+			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
+				<h4>Associations</h4>
+				<ul>
+					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
+					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
+					
 				
 				</ul>
 			</div>
@@ -316,11 +464,9 @@ applications.</li>
 				</ul>
 			</div>
 				<div class="clearfix"></div>
-			<div class="copy animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
-				<p>© 2021 Uwezo College. All Rights Reserved | Design by  <a href="www.elizabethmutisya.com" target="_blank" alt="Elizabeth Waeni Mutisya">EM</a> </p>
-			</div>
+		
 		</div>
 	</diV>
-<!--footer-->		
+<!--footer-->			
 </body>
 </html>
