@@ -10,6 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Uwezo College || Homepage</title>
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/custom.css"  rel="stylesheet" media="all">
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -25,10 +26,7 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 "/images/logo2.png" 
         type = "image/x-icon">
 <!-- //js -->	
-<!--fonts-->
-<link href='//fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
 <!--/fonts-->
 <!--JS for animate-->
 	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
@@ -38,8 +36,20 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 	<!--//end-animate-->
 
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
+
+
 <style>
+
 	.button {
   background-color:  #6b3f98;
   border: none;
@@ -60,6 +70,7 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
   float: center;
   display: inline-block;
 color: #2caae2;
+
 align-items: center;
 }
 #callafter { 
@@ -72,7 +83,7 @@ align-items: center;
 
 #face { 
   float: right;
-
+  padding: 14px 1px;
   text-align: center;
   align:center;
 
@@ -105,6 +116,24 @@ height:80px;
 
 }
 
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 670px;
+    height:40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -116,51 +145,8 @@ height:80px;
 .dropdown {
   position: relative;
   display: inline-block;
+ 
 }
-
-.column {
-  float: left;
-  width: 15.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-.nav a {
-  float: center;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 
 .right-side-content {
   display: flex;
@@ -172,7 +158,7 @@ height:80px;
   color: #f2f2f2;
   height:80px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -186,13 +172,17 @@ height:80px;
   background-color: #2caae2;
   color: white;
 }
+
+
+
 </style>
 </head>
 <body>
 
 
-<div class="nav" style="text-align: center; ">
- <a href="https://elearning.uwezocollege.ac.ke/cmis/portal/">Click To Access E-learning</a>
+<div class="nav" span class="align-middle">
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #603888; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
+
 
  
 </div>
@@ -209,33 +199,135 @@ height:80px;
  
 
   <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
-  <a href="http://uwezowetufoundation.org/">scholarship</a>
+  <a href="http://uwezowetufoundation.org/" target="_blank">scholarship</a>
  <div id="section1">
   <a href="#section2">News & Testimonials</a></div>
  
 
+  <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/" style="color:purple">School of Business Management</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/" style="color:purple">School of Electrical Engineering</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/" style="color:purple">School of Catering and Hospitality</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/" style="color:purple">School of Social & Community Development</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/" style="color:purple">School of Plumbing</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/" style="color:purple">School of Building & Construction</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/" style="color:purple">School of Cosmetology</a>
+
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/" style="color:purple">School of Accounting</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/" style="color:purple">School of Education</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/" style="color:purple">School of Welding</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/" style="color:purple">School of Counselling</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/" style="color:purple">School of Culture & Social Studies</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-fashion-and-design/" style="color:purple">School of Fashion & Design</a>
+                 
+                 
+                  </div>
+
+
   
   <a href="/contact">Contact Us</a>
   <div id= "call">
-  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.co.ke
+	  <div class="adjust-line-height">
+  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.ac.ke
   
 
 </div>
 
   </h4>
-  <!--
+</div>
+
   <div id=face >
   <a href="https://www.facebook.com/uwezocollege" ><i class="f-1"> </i></a>
   <a href="https://twitter.com/UwezoCollege_ac"  ><i class="g-1" > </i></a>
 </div>
--->
+
 </div>
 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
 
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+ 
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-fluid" src="images/main2.png"   alt="First slide">
+	  
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/main1.png"  alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/main3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+	<!--
+
+			<div class="flexslider">
+		
+				<ul class="slides">
+					<li>
+						<div class="banner-info1">
+						<img src="images/home.jpg" class="img-responsive zoom-img" alt="">
+							
+						</div>
+					</li>
+					<li>
+						<div class="banner-info1">
+						<img src="images/gd2.jpeg" class="img-responsive zoom-img" alt="">
+							
+						</div>
+					</li>
+					<li>
+						<div class="banner-info1">
+						<img src="images/home.jpg" class="img-responsive zoom-img" alt="">
+						</div>
+					</li>
+				</ul>
+			</div>
+
+
+
+
+
+
+
+							  <script defer="" src="js/jquery.flexslider.js"></script>
+							  <script type="text/javascript">
+								$(function(){
+								 
+								});
+								$(window).load(function(){
+								  $('.flexslider').flexslider({
+									animation: "slide",
+									start: function(slider){
+									  $('body').removeClass('loading');
+									}
+								  });
+								});
+							  </script>
+						
+	</div>
+</div>
+</div>
 
 	<div class="banner">
-		<!--
+		
 		<div class="header">		
 				<nav class="navbar navbar-default">
 					
@@ -281,7 +373,7 @@ height:80px;
 		</div>
 
 
--->
+
 		<div class="container">
 	
 			<div class="banner-info">
@@ -339,15 +431,16 @@ height:80px;
 			</div>
 		</div>
 	</div>
-	<!--//banner-->
+	//banner-->
 <!--students-->
 	<div class="students">
 		<div class="col-md-8 students-left wow fadeInLeft animated" data-wow-delay=".5s">
-			<h2>About Uwezo College</h2>
+			<h1>About Uwezo College</h1>
 
 	
-			<h3>Beyond Training</h3>
-			<p>Uwezo College is owned by Uwezo Kenya ltd, which is registered under the
+			<h2>Beyond Training</h2>
+			<br>
+			<p>Uwezo College is owned by Uwezo Kenya ltd, which is registered under the 
 companies act. The college is registered with the ministry of education as a middle
 level college – TVETA /PRIVATE/TVC/0015/2018
 The college offers various technical and business courses examined by KNEC,
@@ -357,16 +450,16 @@ from Kenya students across the Country. </p>
 		<div class="col-md-4 students-right wow fadeInRight animated" data-wow-delay=".5s">
 			<ul>
 				<li><div class="history-grid-image">
-						<img src="images/home.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu1.JPG" class="img-responsive zoom-img" alt="">
 					</div></li>
 				<li><div class="history-grid-image">
 						<img src="images/gd2.jpeg" class="img-responsive zoom-img" alt="">
 					</div></li>
 				<li><div class="history-grid-image">
-						<img src="images/ft1.jpeg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu4.JPG" class="img-responsive zoom-img" alt="">
 					</div></li>
 				<li><div class="history-grid-image">
-						<img src="images/ddd.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu3.JPG" class="img-responsive zoom-img" alt="">
 					</div></li>
 			</ul>
 		</div>
@@ -377,11 +470,11 @@ from Kenya students across the Country. </p>
 	<div class="best">
 		<div class="container">
 			<div class="col-md-6 best-left wow fadeInLeft animated" data-wow-delay=".5s">
-				<h3>Latest News</h3>
+				<h2><b>Latest News:</b> </h2>
 				<div class="bes-top">
 					<div class="bes-lft">
 						<div class="history-grid-image">
-						<img src="images/blog1.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu3.JPG" class="img-responsive zoom-img" alt="">
 					</div>
 					</div>
 					<div class="bes-rgt">
@@ -407,9 +500,10 @@ from Kenya students across the Country. </p>
 			</div>
 			<div  id="section2">
 			<div class="col-md-6 best-left wow fadeInRight animated" data-wow-delay=".5s">
-				<h3>Student Testimonials</h3>
+				<h2><b>Student Testimonials</b></h2>
 				<p>Our overall objective is to unlock the potential within each student so that they can perform at their highest standard in the service of humanity.</p>
 				<div class="bes-top">
+					<br><br>
 					<ul>
 						<li><div class="history-grid-image">
 						<img src="images/eric.jpeg" class="img-responsive zoom-img" alt="">
@@ -417,7 +511,7 @@ from Kenya students across the Country. </p>
 						<h6><a href="/eric">Eric Kilonzo</a></h6>
 						</li>
 						<li><div class="history-grid-image">
-						<img src="images/flora.jpeg" class="img-responsive zoom-img" alt="">
+						<img src="images/flora1.jpeg" class="img-responsive zoom-img" alt="">
 					</div>
 						<h6><a href="/flora">Flora Mutuku</a></h6>
 						</li>
@@ -470,6 +564,8 @@ character that will be agents of change in society.</p>
 			<div class="clearfix"></div>
 		</div>
 	</div>
+
+
 <!--course-->
 
 <!--footer-->
@@ -480,7 +576,7 @@ character that will be agents of change in society.</p>
 		<div class="best">
 		<div class="col-md-4 course-left wow fadeInLeft animated" data-wow-delay=".5s">
 			
-				<h3>Our Partners</h3>
+				<h2><b>Our Partners</b></h2>
 				</div>	</div>
 				<br>
 <div class="row">
@@ -507,7 +603,10 @@ character that will be agents of change in society.</p>
 		
 	</div>
 	<br>
-		
+
+	
+
+
 <!--semst-->
 <!--footer-->
 	<div class="footer">
@@ -517,16 +616,11 @@ character that will be agents of change in society.</p>
 				<p>Call 0713-554-972 / 0724-390-322</p>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
-				<h4>Schools</h4>
+				<h4>Quick Links</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
 					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
-				
+					
 				
 				
 				</ul>
@@ -541,7 +635,7 @@ character that will be agents of change in society.</p>
 				</ul>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInRight animated" data-wow-delay=".5s">
-				<h4>Quick Links</h4>
+				<h4>Schools</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/">School of ICT</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/">School of Business Management </a></li>
@@ -551,7 +645,12 @@ character that will be agents of change in society.</p>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/">School of Plumbing</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/">School of Cosmetology</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/">School of Accounting</a></li>
-					
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
+				
 				
 				</ul>
 			</div>

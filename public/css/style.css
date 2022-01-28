@@ -178,7 +178,7 @@ body a:hover{
   bottom: 0;
   left: 0;
   right: 0;
-  background:#6b3f98;
+  background:#603888;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
@@ -212,7 +212,7 @@ body a:hover{
     line-height: 1.3em;
 	/*-- agileits --*/
     margin: 0;
-    color: #6b3f98;
+    color: #603888;
 }
 .students h3 {
     font-size: 1.7em;
@@ -244,17 +244,17 @@ body a:hover{
     font-size: 2em;
     line-height: 1.3em;
     margin: 0 0 1.5em;
-    color: #6b3f98;
+    color: #603888;
 }
 .best h4 {
     font-family: 'Candal', sans-serif;
     font-size: 1.4em;
     line-height: 1.3em;
     margin: 0;
-    color: #6b3f98;
+    color: #603888;
 }
 .best h4 a{
-    color: #6b3f98;
+    color: #603888;
 }
 .best h4 a:hover{
     color: #000000;
@@ -271,7 +271,7 @@ body a:hover{
     font-size: 1.3em;
     line-height: 1.3em;
     margin: 0;
-    color: #6b3f98;
+    color: #603888;
 	text-decoration:none;
 }
 .best h6 a:hover{
@@ -315,7 +315,7 @@ body a:hover{
     font-size: 2em;
     line-height: 1.3em;
     margin: 0 0 1.5em;
-    color: #6b3f98;
+    color: #603888;
 }
 .course p {
     font-size: 1.1em;
@@ -336,7 +336,7 @@ body a:hover{
 	line-height:2.2em;
 }
 .course li a:hover {
-    color: #6b3f98;
+    color: #603888;
 }
 .course li a span {
     width: 22px;
@@ -355,7 +355,7 @@ body a:hover{
     font-size: 2em;
     line-height: 1.3em;
     margin: 0 0 1.5em;
-    color: #6b3f98;
+    color: #603888;
 }
 .semst p {
     font-size: 1.1em;
@@ -391,7 +391,7 @@ body a:hover{
     padding: 0.55em 0em;
     font-size: 1em;
     width: 25%;
-    background: #6b3f98;
+    background: #603888;
     color: #fff;
     border: none;
     outline: none;
@@ -459,7 +459,7 @@ i.g-1:hover{
 }
 .footer {
     padding: 4em 0;
-    background-color: #6b3f98;
+    background-color: #603888;
 }
 .soci {
     border-left: 1px solid #fff;
@@ -471,7 +471,7 @@ ul.social-icons1 li {
     margin: 0 5px;
 }
 .staff-top h5 {
-    color: #6b3f98;
+    color: #603888;
     font-size: 1.3em;
     font-family: 'Candal', sans-serif;
     margin-top: 1em;
@@ -496,7 +496,7 @@ ul.social-icons1 li {
 }
 .team h2 {
     font-size: 2em;
-    color: #6b3f98;
+    color: #603888;
     margin-bottom: 1em;
     font-family: 'Candal', sans-serif;
     line-height: 1.3em;
@@ -522,13 +522,13 @@ ul.social-icons1 li {
 	display: block;
 }
 .captn h4 {
-  color: #6b3f98;
+  color: #603888;
   margin: .1em 0 0;
   font-size: 1.7em;
   font-family: 'Candal', sans-serif;
 }
 .captn p {
-    color: #6b3f98;
+    color: #603888;
     font-size: 0.95em;
     font-weight: 100;
     margin-top: 0.5em;
@@ -542,7 +542,7 @@ ul.social-icons1 li {
   height: 100%;
   width: 100%;
   font-weight: 800;
-  color: #6b3f98;
+  color: #603888;
   position: absolute;
   bottom: -86%;
   right: 0%;
@@ -628,10 +628,10 @@ img.zoom-img {
 }
 .artical-links ul li a:hover{
 	text-decoration:underline;
-	color:#6b3f98;
+	color:#603888;
 }
 .artical-content h1{
-	color:#6b3f98;
+	color:#603888;
     text-align: left;
     text-transform: capitalize;
     font-size: 2em;
@@ -670,7 +670,7 @@ img.zoom-img {
 	width:70%;
 }
 .table-form input[type="submit"] {
-	background:#6b3f98;
+	background:#603888;
 	color: #fff;
 	font-size: 1.2em;
 	display: block;
@@ -688,7 +688,7 @@ img.zoom-img {
 	background:#000000;
 }
 .comment-grid-top h2, .artical-commentbox h3 {
-    color: #6b3f98;
+    color: #603888;
 	font-family: 'Candal', sans-serif;
     text-transform: capitalize;
     padding-top: 1.5em;
@@ -717,7 +717,7 @@ img.zoom-img {
 .top-comment-right ul li a {
     text-decoration: none;
     font-size: 1.1em;
-    color: #6b3f98;
+    color: #603888;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -780,7 +780,7 @@ img.zoom-img {
     font-size: 2em;
     line-height: 1.3em;
     margin: 0 0 1.5em;
-    color: #6b3f98;
+    color: #603888;
 }
 .about h4 {
     font-family: 'Julius Sans One', sans-serif;
@@ -800,7 +800,7 @@ img.zoom-img {
     font-size: 1.6em;
     line-height: 1.3em;
     margin: 0 0 1em;
-    color: #6b3f98;
+    color: #603888;
 }
 .about-top li,.staff-left li {
     display: block;
@@ -823,7 +823,7 @@ img.zoom-img {
     font-size: 2em;
     line-height: 1.3em;
     margin: 0 0 1em;
-    color: #6b3f98;
+    color: #603888;
 }
 .staff-top li {
     display: inline-block;
@@ -849,7 +849,7 @@ img.zoom-img {
     font-size: 3em;
     line-height: 1.3em;
     margin: 0 0 1em;
-    color: #6b3f98;
+    color: #603888;
 }
 .contact-top{
 	text-align:center;
@@ -898,7 +898,7 @@ img.zoom-img {
 	-o-transition: 0.5s all;
 }
 .address h5,.address h2 {
-    color: #6b3f98;
+    color: #603888;
     font-size: 1.5em;
     margin: 0;
 	font-family: 'Candal', sans-serif;
@@ -930,7 +930,7 @@ img.zoom-img {
 /*--map-end--*/
 /*--Typography--*/
 h3.title {
-    color: #6b3f98;
+    color: #603888;
     font-size: 3em;
 	font-family: 'Candal', sans-serif;
 	text-align:center;
@@ -974,7 +974,7 @@ h3.title {
 }
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 	margin-bottom: 1em;
-    color:#6b3f98;
+    color:#603888;
     font-family:'Candal', sans-serif;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {

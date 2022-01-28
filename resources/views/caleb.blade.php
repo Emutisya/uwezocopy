@@ -24,13 +24,21 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 <link rel = "icon" href = 
 "/images/logo2.png" 
         type = "image/x-icon">
-<!-- //js -->	
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-<!--/fonts-->
+
+
+
 <style>
+
 	.button {
   background-color:  #6b3f98;
   border: none;
@@ -51,6 +59,7 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
   float: center;
   display: inline-block;
 color: #2caae2;
+
 align-items: center;
 }
 #callafter { 
@@ -63,7 +72,7 @@ align-items: center;
 
 #face { 
   float: right;
-
+  padding: 14px 1px;
   text-align: center;
   align:center;
 
@@ -78,6 +87,14 @@ align-items: center;
 }
 
 
+#section1 {
+ 
+}
+
+
+#section2 {
+ 
+}
 
 
 .topnav {
@@ -87,6 +104,24 @@ height:80px;
   background-color: #6b3f98;
 
 }
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 670px;
+    height:40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 
 .dropbtn {
   background-color: #04AA6D;
@@ -99,51 +134,8 @@ height:80px;
 .dropdown {
   position: relative;
   display: inline-block;
+ 
 }
-
-.column {
-  float: left;
-  width: 15.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-.nav a {
-  float: center;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 
 .right-side-content {
   display: flex;
@@ -155,7 +147,7 @@ height:80px;
   color: #f2f2f2;
   height:80px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -169,13 +161,17 @@ height:80px;
   background-color: #2caae2;
   color: white;
 }
+
+
+
 </style>
 </head>
 <body>
 
 
-<div class="nav" style="text-align: center; ">
- <a href="https://elearning.uwezocollege.ac.ke/cmis/portal/">Click To Access E-learning</a>
+<div class="nav" span class="align-middle">
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><h4 style="color: #603888; text-align: center; width="250"> Click To Access E-learning</h4></a> </span></marquee>
+
 
  
 </div>
@@ -187,36 +183,85 @@ height:80px;
 <div class="topnav">
 
   <a  href="/">Home</a>
-  <a   href="/about">About</a>
+  <a  href="/about">About</a>
   <a  href="/courses">Courses</a>
  
 
   <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
-  <a href="http://uwezowetufoundation.org/">scholarship</a>
- 
+  <a href="http://uwezowetufoundation.org/" target="_blank">scholarship</a>
 
  
+
+  <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/" style="color:purple">School of Business Management</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/" style="color:purple">School of Electrical Engineering</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/" style="color:purple">School of Catering and Hospitality</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/" style="color:purple">School of Social & Community Development</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/" style="color:purple">School of Plumbing</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/" style="color:purple">School of Building & Construction</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/" style="color:purple">School of Cosmetology</a>
+
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/" style="color:purple">School of Accounting</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/" style="color:purple">School of Education</a>
+                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/" style="color:purple">School of Welding</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/" style="color:purple">School of Counselling</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/" style="color:purple">School of Culture & Social Studies</a>
+					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-fashion-and-design/" style="color:purple">School of Fashion & Design</a>
+                 
+                 
+                  </div>
+
 
   
   <a href="/contact">Contact Us</a>
   <div id= "call">
-  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.co.ke
+  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.ac.ke
   
 
 </div>
 
   </h4>
-  <!--
+
   <div id=face >
   <a href="https://www.facebook.com/uwezocollege" ><i class="f-1"> </i></a>
   <a href="https://twitter.com/UwezoCollege_ac"  ><i class="g-1" > </i></a>
 </div>
--->
+
 </div>
 
-	<!--banner-->
-	<div class="banner-1">
-</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+ 
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-fluid" src="images/main2.png"   alt="First slide">
+	  
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/main1.png"  alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/main3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div
+
 	<!--//banner-->
 <!--single-page-->
 <div class="single">
@@ -247,16 +292,10 @@ height:80px;
 				<p>Call 0713-554-972 / 0724-390-322</p>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
-				<h4>Schools</h4>
+				<h4>Quick Links</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
 					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
-				
 				
 				
 				</ul>
@@ -271,7 +310,7 @@ height:80px;
 				</ul>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInRight animated" data-wow-delay=".5s">
-				<h4>Quick Links</h4>
+				<h4>Schools</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/">School of ICT</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/">School of Business Management </a></li>
@@ -281,7 +320,13 @@ height:80px;
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/">School of Plumbing</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/">School of Cosmetology</a></li>
 					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/">School of Accounting</a></li>
-					
+          <li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
+				
+				
 				
 				</ul>
 			</div>
