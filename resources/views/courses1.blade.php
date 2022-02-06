@@ -168,12 +168,13 @@ height:80px;
 
 
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 
 <div class="nav" span class="align-middle">
- <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #603888; text-align: center; width="250"> <b>Click To Access E-learning</b></p></a> </span></marquee>
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
 
 
  
@@ -185,16 +186,9 @@ height:80px;
 
 <div class="topnav">
 
-  <a  href="/">Home</a>
-  <a  href="/about">About</a>
-  <a class="active" href="/courses">Courses</a>
- 
-
-  <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
-  <a href="http://uwezowetufoundation.org/" target="_blank">scholarship</a>
-
- 
-
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  
   <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
                     <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
@@ -217,19 +211,34 @@ height:80px;
                   </div>
 
 
+  <a class="active"  href="/courses">Courses</a>
+ 
+  <a href="https://elearning.uwezocollege.ac.ke/" target="_blank">Elearning</a>
+  <a href="http://uwezowetufoundation.org/" target="_blank">Scholarship</a>
+  <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
+ 
+
+  
+ 
+
   
   <a href="/contact">Contact Us</a>
+  
   <div id= "call">
+	  <div class="adjust-line-height">
   <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.ac.ke
   
 
 </div>
 
   </h4>
+</div>
 
   <div id=face >
-  <a href="https://www.facebook.com/uwezocollege" ><i class="f-1"> </i></a>
-  <a href="https://twitter.com/UwezoCollege_ac"  ><i class="g-1" > </i></a>
+  <a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
+  <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
+  <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
+
 </div>
 
 </div>
@@ -241,11 +250,13 @@ height:80px;
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
  
     <div class="carousel-item active">
-      <img class="d-block w-100 img-fluid" src="images/main2.png"   alt="First slide">
+      <img class="d-block w-100 img-fluid" src="images/uu4.png"   alt="First slide">
 	  
     </div>
     <div class="carousel-item">
@@ -253,6 +264,12 @@ height:80px;
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/main3.png" alt="Third slide">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/uu6.png"  alt="fourth slide">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/uu5.png"  alt="fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -263,8 +280,7 @@ height:80px;
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div
-
+</div>
 	<!--//banner-->
 <!--single-page-->
 <div class="single">

@@ -176,12 +176,13 @@ height:80px;
 
 
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 
 <div class="nav" span class="align-middle">
- <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #603888; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
 
 
  
@@ -195,15 +196,7 @@ height:80px;
 
   <a class="active" href="/">Home</a>
   <a href="/about">About</a>
-  <a href="/courses">Courses</a>
- 
-
-  <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
-  <a href="http://uwezowetufoundation.org/" target="_blank">scholarship</a>
- <div id="section1">
-  <a href="#section2">News & Testimonials</a></div>
- 
-
+  
   <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
                     <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
@@ -226,8 +219,19 @@ height:80px;
                   </div>
 
 
+  <a href="/courses">Courses</a>
+ 
+  <a href="https://elearning.uwezocollege.ac.ke/" target="_blank">Elearning</a>
+  <a href="http://uwezowetufoundation.org/" target="_blank">Scholarship</a>
+  <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
+ 
+
+  
+ 
+
   
   <a href="/contact">Contact Us</a>
+  
   <div id= "call">
 	  <div class="adjust-line-height">
   <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.ac.ke
@@ -239,8 +243,10 @@ height:80px;
 </div>
 
   <div id=face >
-  <a href="https://www.facebook.com/uwezocollege" ><i class="f-1"> </i></a>
-  <a href="https://twitter.com/UwezoCollege_ac"  ><i class="g-1" > </i></a>
+  <a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
+  <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
+  <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
+
 </div>
 
 </div>
@@ -252,11 +258,13 @@ height:80px;
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
  
     <div class="carousel-item active">
-      <img class="d-block w-100 img-fluid" src="images/main2.png"   alt="First slide">
+      <img class="d-block w-100 img-fluid" src="images/uu4.png"   alt="First slide">
 	  
     </div>
     <div class="carousel-item">
@@ -264,6 +272,12 @@ height:80px;
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/main3.png" alt="Third slide">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/uu6.png"  alt="fourth slide">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/uu5.png"  alt="fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -440,7 +454,7 @@ height:80px;
 	
 			<h2>Beyond Training</h2>
 			<br>
-			<p>Uwezo College is owned by Uwezo Kenya ltd, which is registered under the 
+			<p style="color:black">Uwezo College is owned by Uwezo Kenya ltd, which is registered under the 
 companies act. The college is registered with the ministry of education as a middle
 level college – TVETA /PRIVATE/TVC/0015/2018
 The college offers various technical and business courses examined by KNEC,
@@ -480,7 +494,7 @@ from Kenya students across the Country. </p>
 					<div class="bes-rgt">
 						<h4><a href="https://blog.uwezocollege.ac.ke/2021/08/05/uwezo-college-the-best-technical-and-business-training-college/">Uwezo College, the best technical and business training college</a></h4>
 						<h5> 5 August 2021</h5>
-						<p>It has severally been reported that Uwezo College, a premier learning institution situated in Machakos town, Industrial area, KIE Building is one of the best colleges in the country...</p>
+						<p style="color:black">It has severally been reported that Uwezo College, a premier learning institution situated in Machakos town, Industrial area, KIE Building is one of the best colleges in the country...</p>
 					</div>
 						<div class="clearfix"></div>
 				</div>
@@ -493,7 +507,7 @@ from Kenya students across the Country. </p>
 					<div class="bes-rgt">
 						<h4><a href="https://blog.uwezocollege.ac.ke/2021/07/28/yummy-so-delicious/">Yummy…. so delicious.</a></h4>
 						<h5> 28 July 2021</h5>
-						<p>his term, we held yet another bash to welcome the newly admitted students. The event was preceded by a mass graced by a priest. It is also a culmination of the students’ orientation program...</p>
+						<p style="color:black">his term, we held yet another bash to welcome the newly admitted students. The event was preceded by a mass graced by a priest. It is also a culmination of the students’ orientation program...</p>
 					</div>
 						<div class="clearfix"></div>
 				</div>
@@ -501,7 +515,7 @@ from Kenya students across the Country. </p>
 			<div  id="section2">
 			<div class="col-md-6 best-left wow fadeInRight animated" data-wow-delay=".5s">
 				<h2><b>Student Testimonials</b></h2>
-				<p>Our overall objective is to unlock the potential within each student so that they can perform at their highest standard in the service of humanity.</p>
+				<p style="color:black">Our overall objective is to unlock the potential within each student so that they can perform at their highest standard in the service of humanity.</p>
 				<div class="bes-top">
 					<br><br>
 					<ul>
@@ -536,7 +550,7 @@ from Kenya students across the Country. </p>
 				<div class="history-grid-image">
 						<img src="images/uwezo5.jpeg" class="img-responsive zoom-img" alt="">
 					</div>
-				<p>We aims to provide holistic training that
+				<p style="color:black">We aim to provide holistic training that
 would produce dependable professionals, strong in body, mind, spirit and
 character that will be agents of change in society.</p>
 			</div>
@@ -545,7 +559,7 @@ character that will be agents of change in society.</p>
 				<div class="history-grid-image">
 						<img src="images/picc.jpg" class="img-responsive zoom-img" alt="">
 					</div>
-				<p>In addition to having an affordable fee structure, Uwezo college offers scholarships, students can apply though the <a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a> website.</p>
+				<p style="color:black">In addition to having an affordable fee structure, Uwezo college offers scholarships, students can apply though the <a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a> website.</p>
 			</div>
 			<div class="col-md-4 course-left wow fadeInRight animated" data-wow-delay=".5s">
 					<h3>Our Core-Values</h3>
@@ -559,7 +573,7 @@ character that will be agents of change in society.</p>
 						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Mutual respect</a></li>
 						
 					</ul>
-					<p>Apply through our elearning <a href="">Uwezo College E-learning</a></p>
+					<p>Apply through our elearning <a href="https://elearning.uwezocollege.ac.ke/">Uwezo College E-learning</a></p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -581,22 +595,22 @@ character that will be agents of change in society.</p>
 				<br>
 <div class="row">
   <div class="column">
-    <img src="images/tve.png"  width="150" height="150" alt="Snow" >
+    <img src="images/tve.png" width="150" height="150" alt="Snow" >
   </div>
   <div class="column">
-    <img src="images/knec.jpg" width="150" height="150"  >
+    <img src="images/knec.jpg" padding-right= "50px" width="150" height="150"  >
   </div>
   <div class="column">
-    <img src="images/nita.png" width="150" height="150">
+    <img src="images/nita.png" padding-right= "100px" width="210" height="150">
   </div>
   <div class="column">
-    <img src="images/juccps.jpg"  width="150" height="150" alt="Snow" >
+    <img src="images/juccps.jpg" padding-right= "50px"  width="260" height="150" alt="Snow" >
   </div>
   <div class="column">
-    <img src="images/kasneb.jpg" width="150" height="150"  >
+    <img src="images/kasneb.jpg" padding-right= "50px" width="180" height="150"  >
   </div>
   <div class="column">
-    <img src="images/ky.PNG" width="150" height="150">
+    <img src="images/ky.PNG" padding-right= "50px" width="180" height="150">
   </div>
 </div>
 			
@@ -604,7 +618,7 @@ character that will be agents of change in society.</p>
 	</div>
 	<br>
 
-	
+
 
 
 <!--semst-->
@@ -659,7 +673,7 @@ character that will be agents of change in society.</p>
 				<ul>
 					<li><a href="https://www.facebook.com/uwezocollege"><i class="f-1"> </i></a></li>
 				<!--	<li><a href="#"><i class="t-1"> </i></a></li> -->
-					<li><a href="https://twitter.com/UwezoCollege_ac"><i class="g-1"> </i></a></li>
+					<li><a href="https://twitter.com/UwezoCollegeKE"><i class="g-1"> </i></a></li>
 				</ul>
 			</div>
 				<div class="clearfix"></div>
