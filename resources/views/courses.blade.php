@@ -291,7 +291,7 @@ height:80px;
 				<div class="col-md-3 abt-1">
 					<a href="/course1"><h2>Catering and hospitality</h2></a>
 					<div class="history-grid-image">
-					<a href="/course1">	<img src="images/q.png" class="img-responsive zoom-img" alt=""></a>
+					<a href="/course1">	<img src="images/q.PNG" class="img-responsive zoom-img" alt=""></a>
 					</div>
 					<a href="/course1">	<p>The School of Catering and Hospitality has a high calling of preparing students to
 fit in the diverse openings in this industry.</p></a>
@@ -300,7 +300,7 @@ fit in the diverse openings in this industry.</p></a>
 				<a href="/course2">	<h3>Hair dressing and Beauty</h3></a>
 					<div class="history-grid-image">
 				
-					<a href="/course2">		<img src="images/hairr.png" class="img-responsive zoom-img" alt=""></a>
+					<a href="/course2">		<img src="images/hairr.PNG" class="img-responsive zoom-img" alt=""></a>
 					</div>
 					<ul>
 					<a href="/course2">	<p>
@@ -341,7 +341,7 @@ as an area... </P></a>
 				<div class="col-md-3 abt-1">
 				<a href="/course5">	<h3>ICT</h3></a>
 					<div class="history-grid-image">
-					<a href="/course5">	<img src="images/ict.png" class="img-responsive zoom-img" alt=""></a>
+					<a href="/course5">	<img src="images/ict.PNG" class="img-responsive zoom-img" alt=""></a>
 					</div>
 					<a href="/course5">	<P style="color:black">You will often hear people saying the World is going digital and that to fit in, one
 must be computer literate! </P></a>	</div>
@@ -360,7 +360,7 @@ must be computer literate! </P></a>	</div>
 				<div class="col-md-3 abt-1">
 				<a href="/course6">	<h3>Building and Engineering</h3></a>
 					<div class="history-grid-image">
-					<a href="/course6">		<img src="images/build.png" class="img-responsive zoom-img" alt=""></a>
+					<a href="/course6">		<img src="images/build.PNG" class="img-responsive zoom-img" alt=""></a>
 					</div>
                     <a href="/course6">	<P style="color:black">Employ tools and materials appropriate to their purpose and function and in
 keeping... </P></a>	</div>
