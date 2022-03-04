@@ -134,19 +134,7 @@ height:80px;
 }
 
 
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
- 
-}
 
 .right-side-content {
   display: flex;
@@ -156,9 +144,9 @@ height:80px;
 .topnav a {
   float: left;
   color: #f2f2f2;
-  height:80px;
+  height:10px;
   text-align: center;
-  padding: 25px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -166,11 +154,13 @@ height:80px;
 .topnav a:hover {
   background-color: #2caae2;
   color: black;
+  padding: 38px 16px;
 }
 
 .topnav a.active {
   background-color: #2caae2;
   color: white;
+  padding: 38px 16px;
 }
 
 
@@ -182,7 +172,7 @@ height:80px;
 
 
 <div class="nav" span class="align-middle">
- <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="left" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
 
 
  
@@ -488,26 +478,26 @@ from Kenya students across the Country. </p>
 				<div class="bes-top">
 					<div class="bes-lft">
 						<div class="history-grid-image">
-						<img src="images/uu3.JPG" class="img-responsive zoom-img" alt="">
+						<img src="images/uprayer.jpg" class="img-responsive zoom-img" alt="">
 					</div>
 					</div>
 					<div class="bes-rgt">
-						<h4><a href="https://blog.uwezocollege.ac.ke/2021/08/05/uwezo-college-the-best-technical-and-business-training-college/">Uwezo College, the best technical and business training college</a></h4>
-						<h5> 5 August 2021</h5>
-						<p style="color:black">It has severally been reported that Uwezo College, a premier learning institution situated in Machakos town, Industrial area, KIE Building is one of the best colleges in the country...</p>
+						<h4><a href="https://blog.uwezocollege.ac.ke/2022/02/10/321/">Thanking God for what Uwezo College has achieved so far</a></h4>
+						<h5>  2022/02/10</h5>
+						<p style="color:black">When you begin everything with God, everything works for you. We conducted our Term 1 Mass and Fr...</p>
 					</div>
 						<div class="clearfix"></div>
 				</div>
 				<div class="bes-top1">
 					<div class="bes-lft">
 						<div class="history-grid-image">
-						<img src="images/blog2.jpeg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu5.JPG" class="img-responsive zoom-img" alt="">
 					</div>
 					</div>
 					<div class="bes-rgt">
-						<h4><a href="https://blog.uwezocollege.ac.ke/2021/07/28/yummy-so-delicious/">Yummy…. so delicious.</a></h4>
-						<h5> 28 July 2021</h5>
-						<p style="color:black">his term, we held yet another bash to welcome the newly admitted students. The event was preceded by a mass graced by a priest. It is also a culmination of the students’ orientation program...</p>
+						<h4><a href=https://blog.uwezocollege.ac.ke/2022/02/03/a-section-of-uwezo-college-hair-dressing-students-in-action/>A section of Uwezo College Hair Dressing students in action</a></h4>
+						<h5> 2022/02/03</h5>
+						<p style="color:black">Uwezo College situated in Machakos town is one of the best technical and business courses in Kenya duly registered with TVETA...</p>
 					</div>
 						<div class="clearfix"></div>
 				</div>
@@ -557,20 +547,20 @@ character that will be agents of change in society.</p>
 			<div class="col-md-4 course-left animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
 				<h3>Affordability & Scholarships</h3>
 				<div class="history-grid-image">
-						<img src="images/picc.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/uu1.JPG" class="img-responsive zoom-img" alt="">
 					</div>
 				<p style="color:black">In addition to having an affordable fee structure, Uwezo college offers scholarships, students can apply though the <a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a> website.</p>
 			</div>
 			<div class="col-md-4 course-left wow fadeInRight animated" data-wow-delay=".5s">
 					<h3>Our Core-Values</h3>
 					<ul>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Teamwork</a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Integrity </a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>God centeredness</a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Professionalism </a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Hard work</a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Discipline</a></li>
-						<li><a href="https://elearning.uwezocollege.ac.ke/cmis/portal/"><span></span>Mutual respect</a></li>
+						<li><a><span></span>Teamwork</a></li>
+						<li><a><span></span>Integrity </a></li>
+						<li><a><span></span>God centeredness</a></li>
+						<li><a><span></span>Professionalism </a></li>
+						<li><a><span></span>Hard work</a></li>
+						<li><a><span></span>Discipline</a></li>
+						<li><a><span></span>Mutual respect</a></li>
 						
 					</ul>
 					<p>Apply through our elearning <a href="https://elearning.uwezocollege.ac.ke/">Uwezo College E-learning</a></p>
@@ -632,8 +622,8 @@ character that will be agents of change in society.</p>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Quick Links</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
-					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/"target="_blank">E-learning</a></li>
+					<li><a href="http://uwezowetufoundation.org/"target="_blank">Uwezo Wetu Foundation </a></li>
 					
 				
 				
@@ -642,8 +632,14 @@ character that will be agents of change in society.</p>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Associations</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
-					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/"target="_blank">E-learning</a></li>
+					<li><a href="http://uwezowetufoundation.org/"target="_blank">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://www.education.go.ke/index.php/about-us/state-departments/vocational-and-technical-education/tvet-authority"target="_blank">TVET </a></li>
+					<li><a href="https://www.knec.ac.ke/"target="_blank">KNEC </a></li>
+					<li><a href="https://www.nita.go.ke/"target="_blank">NITA </a></li>
+					<li><a href="https://kuccps.net/"target="_blank">KUCCPS</a></li>
+					<li><a href="https://kasneb.or.ke/"target="_blank">KASNEB </a></li>
+					<li><a href="https://kyeop.go.ke/"target="_blank">KYEOP </a></li>
 					
 				
 				</ul>
@@ -651,19 +647,19 @@ character that will be agents of change in society.</p>
 			<div class="col-md-3 footer-left wow fadeInRight animated" data-wow-delay=".5s">
 				<h4>Schools</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/">School of ICT</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/">School of Business Management </a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/">School of Electrical Engineering</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/">School of Catering and Hospitality</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/">School of Social and Community Development</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/">School of Plumbing</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/">School of Cosmetology</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/">School of Accounting</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" target="_blank">School of ICT</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/"target="_blank">School of Business Management </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/"target="_blank">School of Electrical Engineering</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/"target="_blank">School of Catering and Hospitality</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/"target="_blank">School of Social and Community Development</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/"target="_blank">School of Plumbing</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/"target="_blank">School of Cosmetology</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/"target="_blank">School of Accounting</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/"target="_blank">School of Education</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/"target="_blank">School of Welding</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/"target="_blank">School of Counseling</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/"target="_blank">School of Culture and Social Studies</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/"target="_blank">School of Building and Construction</a></li>
 				
 				
 				</ul>

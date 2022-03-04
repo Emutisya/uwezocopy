@@ -124,19 +124,7 @@ height:80px;
 }
 
 
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
- 
-}
 
 .right-side-content {
   display: flex;
@@ -146,9 +134,9 @@ height:80px;
 .topnav a {
   float: left;
   color: #f2f2f2;
-  height:80px;
+  height:10px;
   text-align: center;
-  padding: 25px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -156,13 +144,14 @@ height:80px;
 .topnav a:hover {
   background-color: #2caae2;
   color: black;
+  padding: 38px 16px;
 }
 
 .topnav a.active {
   background-color: #2caae2;
   color: white;
+  padding: 38px 16px;
 }
-
 
 
 </style>
@@ -172,7 +161,7 @@ height:80px;
 
 
 <div class="nav" span class="align-middle">
- <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="right" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
+ <a href="https://elearning.uwezocollege.ac.ke/" target="_blank"><marquee direction="left" ><p style="color: #FF0000; text-align: center; width=250"> <b> Click To Access E-learning</b></p></a> </span></marquee>
 
 
  
@@ -318,8 +307,10 @@ height:80px;
 		<iframe src="https://maps.google.com/maps?q=Uwezo%20College%20Machakos%20&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:0"></iframe>
 	</div>
 
+
+<!--semst-->
 <!--footer-->
-	<div class="footer">
+<div class="footer">
 		<div class="container">
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Get in touch!</h4>
@@ -328,8 +319,8 @@ height:80px;
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Quick Links</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
-					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/"target="_blank">E-learning</a></li>
+					<li><a href="http://uwezowetufoundation.org/"target="_blank">Uwezo Wetu Foundation </a></li>
 					
 				
 				
@@ -338,8 +329,14 @@ height:80px;
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Associations</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/">E-learning</a></li>
-					<li><a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/"target="_blank">E-learning</a></li>
+					<li><a href="http://uwezowetufoundation.org/"target="_blank">Uwezo Wetu Foundation </a></li>
+					<li><a href="https://www.education.go.ke/index.php/about-us/state-departments/vocational-and-technical-education/tvet-authority"target="_blank">TVET </a></li>
+					<li><a href="https://www.knec.ac.ke/"target="_blank">KNEC </a></li>
+					<li><a href="https://www.nita.go.ke/"target="_blank">NITA </a></li>
+					<li><a href="https://kuccps.net/"target="_blank">KUCCPS</a></li>
+					<li><a href="https://kasneb.or.ke/"target="_blank">KASNEB </a></li>
+					<li><a href="https://kyeop.go.ke/"target="_blank">KYEOP </a></li>
 					
 				
 				</ul>
@@ -347,19 +344,19 @@ height:80px;
 			<div class="col-md-3 footer-left wow fadeInRight animated" data-wow-delay=".5s">
 				<h4>Schools</h4>
 				<ul>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/">School of ICT</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/">School of Business Management </a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/">School of Electrical Engineering</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/">School of Catering and Hospitality</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/">School of Social and Community Development</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/">School of Plumbing</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/">School of Cosmetology</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/">School of Accounting</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/">School of Education</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/">School of Welding</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/">School of Counseling</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/">School of Culture and Social Studies</a></li>
-					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/">School of Building and Construction</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" target="_blank">School of ICT</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/"target="_blank">School of Business Management </a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/"target="_blank">School of Electrical Engineering</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/"target="_blank">School of Catering and Hospitality</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/"target="_blank">School of Social and Community Development</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/"target="_blank">School of Plumbing</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/"target="_blank">School of Cosmetology</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/"target="_blank">School of Accounting</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/"target="_blank">School of Education</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/"target="_blank">School of Welding</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/"target="_blank">School of Counseling</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/"target="_blank">School of Culture and Social Studies</a></li>
+					<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/"target="_blank">School of Building and Construction</a></li>
 				
 				
 				</ul>
@@ -376,6 +373,6 @@ height:80px;
 		
 		</div>
 	</diV>
-<!--footer-->			
+<!--footer-->						
 </body>
 </html>
