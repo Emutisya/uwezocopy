@@ -83,7 +83,7 @@ align-items: center;
 
 #face { 
   float: right;
-  padding: 14px 1px;
+  padding: 10px 1px;
   text-align: center;
   align:center;
 
@@ -187,23 +187,23 @@ height:80px;
   <a class="active" href="/">Home</a>
   <a href="/about">About</a>
   
-  <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
+  <a class="nav-link dropdown-toggle  " href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
-                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/" style="color:purple">School of Business Management</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/" style="color:purple">School of Electrical Engineering</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/" style="color:purple">School of Catering and Hospitality</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/" style="color:purple">School of Social & Community Development</a>
-                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/" style="color:purple">School of Plumbing</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/" style="color:purple">School of Building & Construction</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/" style="color:purple">School of Cosmetology</a>
+                    <a class="dropdown-item" style=text-align:left;color:purple  href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
+                    <a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/" style="color:purple">School of Business Management</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/" style="color:purple">School of Electrical Engineering</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/" style="color:purple">School of Catering and Hospitality</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-social-and-community-development/" style="color:purple">School of Social & Community Development</a>
+                    <a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-plumbing/" style="color:purple">School of Plumbing</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-building-and-construction/" style="color:purple">School of Building & Construction</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-cosmetology/" style="color:purple">School of Cosmetology</a>
 
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/" style="color:purple">School of Accounting</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/" style="color:purple">School of Education</a>
-                    <a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/" style="color:purple">School of Welding</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/" style="color:purple">School of Counselling</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/" style="color:purple">School of Culture & Social Studies</a>
-					<a class="dropdown-item" href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-fashion-and-design/" style="color:purple">School of Fashion & Design</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-accounting/" style="color:purple">School of Accounting</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-education/" style="color:purple">School of Education</a>
+                    <a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-welding/" style="color:purple">School of Welding</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-counselling/" style="color:purple">School of Counselling</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/" style="color:purple">School of Culture & Social Studies</a>
+					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-fashion-and-design/" style="color:purple">School of Fashion & Design</a>
                  
                  
                   </div>
@@ -224,7 +224,7 @@ height:80px;
   
   <div id= "call">
 	  <div class="adjust-line-height">
-  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> info@uwezocollege.ac.ke
+  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> <a href="mailto:info@uweocollege.co.ke">info@uwezocollege.ac.ke</a>
   
 
 </div>
@@ -254,20 +254,22 @@ height:80px;
   <div class="carousel-inner">
  
     <div class="carousel-item active">
-      <img class="d-block w-100 img-fluid" src="images/uu4.png"   alt="First slide">
+		
+	<embed src="images/uu4.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
 	  
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/main1.png"  alt="Second slide">
+	<embed src="images/main1.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/main3.png" alt="Third slide">
+	<embed src="images/main3.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+
     </div>
 	<div class="carousel-item">
-      <img class="d-block w-100" src="images/uu6.png"  alt="fourth slide">
+	<embed src="images/uu6.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
     </div>
 	<div class="carousel-item">
-      <img class="d-block w-100" src="images/uu5.png"  alt="fifth slide">
+	<embed src="images/uu5.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -547,10 +549,11 @@ character that will be agents of change in society.</p>
 			<div class="col-md-4 course-left animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">
 				<h3>Affordability & Scholarships</h3>
 				<div class="history-grid-image">
-						<img src="images/uu1.JPG" class="img-responsive zoom-img" alt="">
+						<img src="images/gd2.jpeg" class="img-responsive zoom-img" alt="">
 					</div>
 				<p style="color:black">In addition to having an affordable fee structure, Uwezo college offers scholarships, students can apply though the <a href="http://uwezowetufoundation.org/">Uwezo Wetu Foundation </a> website.</p>
 			</div>
+			
 			<div class="col-md-4 course-left wow fadeInRight animated" data-wow-delay=".5s">
 					<h3>Our Core-Values</h3>
 					<ul>
@@ -618,6 +621,13 @@ character that will be agents of change in society.</p>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Get in touch!</h4>
 				<p>Call 0713-554-972 / 0724-390-322</p>
+			
+				<a href="mailto:info@uweocollege.co.ke"><h3>mail: info@uwezocollege.co.ke</h3> </a>
+<br><br>
+<h4>Follow Us:</h4>
+				<li><a href="https://www.facebook.com/uwezocollege"><i class="f-1"> </i></a></li>
+				<!--	<li><a href="#"><i class="t-1"> </i></a></li> -->
+					<li><a href="https://twitter.com/UwezoCollegeKE"><i class="g-1"> </i></a></li>
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Quick Links</h4>
@@ -664,14 +674,7 @@ character that will be agents of change in society.</p>
 				
 				</ul>
 			</div>
-			<div class="col-md-3 soci wow fadeInRight animated" data-wow-delay=".5s">
-				<h4>Follow Us</h4>
-				<ul>
-					<li><a href="https://www.facebook.com/uwezocollege"><i class="f-1"> </i></a></li>
-				<!--	<li><a href="#"><i class="t-1"> </i></a></li> -->
-					<li><a href="https://twitter.com/UwezoCollegeKE"><i class="g-1"> </i></a></li>
-				</ul>
-			</div>
+			
 				<div class="clearfix"></div>
 		
 		</div>
