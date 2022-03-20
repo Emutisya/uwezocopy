@@ -45,8 +45,7 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 
 
 <style>
-
-	.button {
+.button {
   background-color:  #6b3f98;
   border: none;
   color: white;
@@ -79,7 +78,7 @@ align-items: center;
 
 #face { 
   float: right;
-  padding: 14px 1px;
+  padding: 10px 1px;
   text-align: center;
   align:center;
 
@@ -150,7 +149,7 @@ height:80px;
 .topnav a:hover {
   background-color: #2caae2;
   color: black;
-  padding: 38px 16px;
+  padding: 33px 16px;
 }
 
 .topnav a.active {
@@ -158,7 +157,6 @@ height:80px;
   color: white;
   padding: 38px 16px;
 }
-
 
 
 
@@ -181,12 +179,12 @@ height:80px;
 
 <div class="topnav">
 
-  <a  href="/">Home</a>
-  <a class="active"href="/about">About</a>
+  <a href="/">Home</a>
+  <a class="active"  href="/about">About</a>
   
-  <a class="nav-link dropdown-toggle" href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
+  <a class="nav-link dropdown-toggle  " href="/donate" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schools</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
-				  <a class="dropdown-item" style=text-align:left;color:purple  href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
+                    <a class="dropdown-item" style=text-align:left;color:purple  href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-ict/" style="color:purple">School of ICT</a>
                     <a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-business-management/" style="color:purple">School of Business Management</a>
 					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/" style="color:purple">School of Electrical Engineering</a>
 					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-catering-and-hospitality/" style="color:purple">School of Catering and Hospitality</a>
@@ -202,6 +200,7 @@ height:80px;
 					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-culture-and-social-studies/" style="color:purple">School of Culture & Social Studies</a>
 					<a class="dropdown-item" style=text-align:left;color:purple href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-fashion-and-design/" style="color:purple">School of Fashion & Design</a>
                  
+                 
                   </div>
 
 
@@ -210,7 +209,7 @@ height:80px;
   <a href="https://elearning.uwezocollege.ac.ke/" target="_blank">Elearning</a>
   <a href="http://uwezowetufoundation.org/" target="_blank">Scholarship</a>
   <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
- 
+  <a href="http://resources.uwezocollege.ac.ke" target="_blank">Ecommerce</a>
 
   
  
@@ -220,20 +219,21 @@ height:80px;
   
   <div id= "call">
 	  <div class="adjust-line-height">
-  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter">  <a href="mailto:info@uweocollege.co.ke">info@uwezocollege.ac.ke<a>
-  
+  <h3 id="call" style="color:white"> Get In Touch! 0713-554-972 / 0724-390-322  </h3> <br> <h3 id="call"  style="color:black"><a href="mailto:info@uweocollege.co.ke">info@uwezocollege.ac.ke</a>
+</h3>
 
 </div>
 
-  </h4>
+  
 </div>
 
   <div id=face >
   <a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
   <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
   <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
-
+  <a href="https://www.youtube.com/channel/UCZIPB4SXWBd970--0aZ7iaw"  ><i class="fa fa-youtube" > </i></a>
 </div>
+
 
 </div>
 
@@ -328,7 +328,7 @@ standard in the service of humanity.</p>
 					</ul>
 				</div>
 				<div class="col-md-3 abt-1">
-					<h3>Building & Technology</h3>
+					<h3>Building Technology</h3>
 					<div class="history-grid-image">
 						<img src="images/picc3.jpg" class="img-responsive zoom-img" alt="">
 					</div>
@@ -443,9 +443,12 @@ standard in the service of humanity.</p>
 				
 <br><br>
 <h4>Follow Us:</h4>
-				<li><a href="https://www.facebook.com/uwezocollege"><i class="f-1"> </i></a></li>
-				<!--	<li><a href="#"><i class="t-1"> </i></a></li> -->
-					<li><a href="https://twitter.com/UwezoCollegeKE"><i class="g-1"> </i></a></li>
+			
+<a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
+  <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
+  <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
+  <a href="https://www.youtube.com/channel/UCZIPB4SXWBd970--0aZ7iaw"  ><i class="fa fa-youtube" > </i></a>
+  
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Quick Links</h4>

@@ -154,7 +154,7 @@ height:80px;
 .topnav a:hover {
   background-color: #2caae2;
   color: black;
-  padding: 38px 16px;
+  padding: 33px 16px;
 }
 
 .topnav a.active {
@@ -214,7 +214,7 @@ height:80px;
   <a href="https://elearning.uwezocollege.ac.ke/" target="_blank">Elearning</a>
   <a href="http://uwezowetufoundation.org/" target="_blank">Scholarship</a>
   <a href="http://blog.uwezocollege.ac.ke/">Blog</a>
- 
+  <a href="http://resources.uwezocollege.ac.ke" target="_blank">Ecommerce</a>
 
   
  
@@ -224,19 +224,19 @@ height:80px;
   
   <div id= "call">
 	  <div class="adjust-line-height">
-  <h3 id="call" style="color:white"> Get In Touch! </h3> <h3>0713-554-972 / 0724-390-322  </h3>  <h4 id="callafter"> <a href="mailto:info@uweocollege.co.ke">info@uwezocollege.ac.ke</a>
-  
+  <h3 id="call" style="color:white"> Get In Touch! 0713-554-972 / 0724-390-322  </h3> <br> <h3 id="call"  style="color:black"><a href="mailto:info@uweocollege.co.ke">info@uwezocollege.ac.ke</a>
+</h3>
 
 </div>
 
-  </h4>
+  
 </div>
 
   <div id=face >
   <a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
   <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
   <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
-
+  <a href="https://www.youtube.com/channel/UCZIPB4SXWBd970--0aZ7iaw"  ><i class="fa fa-youtube" > </i></a>
 </div>
 
 </div>
@@ -625,9 +625,12 @@ character that will be agents of change in society.</p>
 				<a href="mailto:info@uweocollege.co.ke"><h3>mail: info@uwezocollege.co.ke</h3> </a>
 <br><br>
 <h4>Follow Us:</h4>
-				<li><a href="https://www.facebook.com/uwezocollege"><i class="f-1"> </i></a></li>
-				<!--	<li><a href="#"><i class="t-1"> </i></a></li> -->
-					<li><a href="https://twitter.com/UwezoCollegeKE"><i class="g-1"> </i></a></li>
+
+<a href="https://instagram.com/uwezocollege"  ><i class="fa fa-instagram" > </i></a>
+  <a href="https://www.facebook.com/uwezocollege" ><i class="fa fa-facebook"> </i></a>
+  <a href="https://twitter.com/UwezoCollegeKE"  ><i class="fa fa-twitter" > </i></a>
+  <a href="https://www.youtube.com/channel/UCZIPB4SXWBd970--0aZ7iaw"  ><i class="fa fa-youtube" > </i></a>
+  
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
 				<h4>Quick Links</h4>
