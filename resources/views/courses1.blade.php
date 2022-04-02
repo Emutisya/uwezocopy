@@ -412,7 +412,7 @@ work in the following service sectors of the Economy;
   
 			</div>
 			<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">
-				<h4>Quick Links</h4>
+				<h4>Quick links</h4>
 				<ul>
 					<li><a href="https://elearning.uwezocollege.ac.ke/"target="_blank">E-learning</a></li>
 					<li><a href="http://uwezowetufoundation.org/"target="_blank">Uwezo Wetu Foundation </a></li>
