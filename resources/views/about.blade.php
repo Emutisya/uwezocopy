@@ -328,12 +328,12 @@ standard in the service of humanity.</p>
 					</ul>
 				</div>
 				<div class="col-md-3 abt-1">
-					<h3>Building Technology</h3>
+					<h3>Building & Construction</h3>
 					<div class="history-grid-image">
-						<img src="images/picc3.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/btc.jpg" class="img-responsive zoom-img" alt="">
 					</div>
 					<ul>
-						<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/">Business Technology Courses</a></li>
+						<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/">Building Technology Courses</a></li>
 						
 					</ul>
 				</div>
@@ -380,7 +380,7 @@ standard in the service of humanity.</p>
 				<div class="col-md-3 abt-1">
 					<h3>Engineering</h3>
 					<div class="history-grid-image">
-						<img src="images/picc7.jpg" class="img-responsive zoom-img" alt="">
+						<img src="images/picc3.jpg" class="img-responsive zoom-img" alt="">
 					</div>
                     <ul>
 						<li><a href="https://elearning.uwezocollege.ac.ke/programs/schools/school-of-electrical-engineering/engineering-professional-courses/">Engineering Professional Courses</a></li>
